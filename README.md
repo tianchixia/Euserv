@@ -24,7 +24,15 @@ Ubuntu
 
 apt-get update && apt-get install wget -y
 
-第三步输入mack a 的一键脚本
+第三步安装WARP
+
+wget -N https://cdn.jsdelivr.net/gh/fscarmen/warp/menu.sh && bash menu.sh [option] [lisence]
+
+选为 ipv6 only 添加 ipv4
+选免费
+选IPV4优先
+
+第四步输入mack a 的一键脚本
 
 wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/mack-a/v2ray-agent/master/install.sh" && chmod 700 /root/install.sh && /root/install.sh
 
