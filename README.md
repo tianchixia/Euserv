@@ -29,7 +29,9 @@ apt-get update && apt-get install wget -y
 wget -N https://cdn.jsdelivr.net/gh/fscarmen/warp/menu.sh && bash menu.sh [option] [lisence]
 
 选为 ipv6 only 添加 ipv4
+
 选免费
+
 选IPV4优先
 
 第四步输入mack a 的一键脚本
